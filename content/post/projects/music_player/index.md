@@ -11,6 +11,7 @@ tags:
     - python
     - pyqt5
     - fastapi
+    - docker
     - open-source
 ---
 
