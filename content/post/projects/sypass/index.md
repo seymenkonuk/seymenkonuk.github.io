@@ -41,14 +41,14 @@ Proje aşağıdaki tarayıcılarda test edilmiştir:
 
 ### Kurulum
 1. Bu repository'yi kendi bilgisayarınıza klonlayın:
-	```bash
-	git clone https://github.com/seymenkonuk/SYPass.git
-	```
+```bash
+git clone https://github.com/seymenkonuk/SYPass.git
+```
 
 2. Projeye gidin:
-	```bash
-	cd SYPass
-	```
+```bash
+cd SYPass
+```
 
 3. Gerekli yapılandırmaları yaptıktan sonra eklentiyi tarayıcınıza kurunuz.
 	- Chrome için kurulum aşamaları:
@@ -58,12 +58,12 @@ Proje aşağıdaki tarayıcılarda test edilmiştir:
 
 ### Yapılandırma
 1. Ayarlarınız, tarayıcının depolamasında şifreli bir şekilde saklanır. Eklenti ayarlarından bu dosyayı dışarı aktarabilir veya içeri aktarabilirsiniz.  Şifreleme anahtarı `build/src/config.min.js` dosyasındaki key bilgisidir. Güvenliğiniz için bu değeri değiştirmelisiniz.
-	```js
-	export const key="yeni-key-bilgisi";
-	```
+```js
+export const key="yeni-key-bilgisi";
+```
 2. Eklentinin ismini değiştirmek isterseniz:
-	- `build/src/config.min.js` dosyasında app_name'i değiştiriniz.
-		```js
-		export const app_name="yeni-app-ismi";
-		```
 	- `build/manifest.json` dosyasında **name**'i değiştiriniz.
+	- `build/src/config.min.js` dosyasında app_name'i değiştiriniz.
+```js
+export const app_name="yeni-app-ismi";
+```

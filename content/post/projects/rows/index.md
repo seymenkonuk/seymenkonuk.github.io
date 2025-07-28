@@ -118,10 +118,10 @@ Cihaz kendi Wi-Fi ağını oluşturur (ROWS-\<Seri-Numarası\>).
 ### Yapılandırma
 1. [PlatformIO](https://platformio.org/) eklentili Visual Studio Code’u indirip kurun.  
 2. Projeyi klonlayın:  
-   ```bash
-   git clone https://github.com/seymenkonuk/ROWS.git
-   cd ROWS
-	 ```
+```bash
+git clone https://github.com/seymenkonuk/ROWS.git
+cd ROWS
+```
 3. `frontends/device-firmware/include/rows_api.h` dosyasındaki \<your-domain\> kısmını değiştiriniz.
 4. `utils/ecc-certificate-generator/cnf/server.cnf` dosyasındaki \<your-domain\> kısımlarını değiştiriniz.
 5. backend'i çalıştırın (isteğe bağlı)

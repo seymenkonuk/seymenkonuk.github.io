@@ -63,14 +63,14 @@ Projenin düzgün çalışabilmesi için aşağıdaki yazılımların sisteminiz
 
 ### Kurulum
 1. Bu repository'yi kendi bilgisayarınıza klonlayın:
-	```bash
-	git clone https://github.com/seymenkonuk/music_player.git
-	```
+```bash
+git clone https://github.com/seymenkonuk/music_player.git
+```
 
 2. Projeye gidin:
-	```bash
-	cd music_player
-	```
+```bash
+cd music_player
+```
 
 ### Yapılandırma
 Müziklerinizin olduğu root dizini, dinlemek istediğiniz müzik dosya uzantılarını, backend url'sini ve uygulama temasını ```frontends/desktop-app/env/.env``` dosyasına yazınız:
@@ -98,21 +98,21 @@ Uygulama **Makefile** üzerinden kolayca çalıştırılabilir.
 
 - **Proje için gerekli modülleri yüklemek ve backend'i build etmek için**:
 
-	```bash
-	make build
-	```
+```bash
+make build
+```
 
 - **Backend'i ve Müzik çalar uygulamasını çalıştırmak için**:
 
-	```bash
-	make run
-	```
+```bash
+make run
+```
 
 - **Backend olmadan Müzik çalar uygulamasını çalıştırmak için (giriş/kayıt çalışmaz)**:
 
-	```bash
-	make start
-	```
+```bash
+make start
+```
 
 ## Atıflar
 
