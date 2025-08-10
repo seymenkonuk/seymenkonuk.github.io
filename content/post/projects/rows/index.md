@@ -44,6 +44,9 @@ Sunduğu özellikler:
 - MQTT protokolü kullanılarak mobil uygulama ile oyun konsolu arasında anlık iletişim (geliştirme aşamasında)
 
 ### Proje Görselleri
+![](device-case-1.jpg)
+![](device-case-2.jpg)
+![](device-case-3.jpg)
 ![](device-1.jpg)
 ![](device-2.jpg)
 ![](device-3.jpg)
