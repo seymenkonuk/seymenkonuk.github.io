@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gizlilik on Recep Seymen Konuk</title><link>https://seymenkonuk.github.io/tags/privacy/</link><description>Recent content in Gizlilik on Recep Seymen Konuk</description><generator>Hugo -- gohugo.io</generator><language>tr-TR</language><lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0300</lastBuildDate><atom:link href="https://seymenkonuk.github.io/tags/privacy/index.xml" rel="self" type="application/rss+xml"/><item><title>SYChat: WhatsApp için Ekstra Şifreleme</title><link>https://seymenkonuk.github.io/post/sychat/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0300</pubDate><guid>https://seymenkonuk.github.io/post/sychat/</guid><description>&lt;p>Proje kaynak kodlarına &lt;a class="link" href="https://github.com/seymenkonuk/SYChat" target="_blank" rel="noopener"
+>GitHub üzerindeki bu repo&lt;/a> aracılığıyla ulaşabilirsiniz.&lt;/p>
+&lt;h2 id="açıklama">Açıklama
+&lt;/h2>&lt;p>Bu Chrome eklentisi, WhatsApp Web&amp;rsquo;teki mesajlar için ek bir güvenlik katmanı sağlar. WhatsApp Web&amp;rsquo;in yerleşik şifreleme özelliklerine ek olarak, mesajlarınızı AES (Advanced Encryption Standard) algoritması ile ekstra bir şifrelemeye tabi tutarak gizliliğinizi daha da artırır.&lt;/p>
+&lt;p>Sunduğu özellikler:&lt;/p>
+&lt;ul>
+&lt;li>Mesajları şifreleme / çözme&lt;/li>
+&lt;li>Dosyaları şifreleme / çözme&lt;/li>
+&lt;li>Sohbetin ortak anahtarını manuel belirleme&lt;/li>
+&lt;li>Ortak anahtar belirlemek için Diffie-Hellman kullanma&lt;/li>
+&lt;li>Anahtarları dosya olarak dışarı aktarma ve dosyayı içeri aktarma&lt;/li>
+&lt;/ul>
+&lt;h3 id="tanıtım">Tanıtım
+&lt;/h3>&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/M6rjjuHJ8M8"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h2 id="başlangıç">Başlangıç
+&lt;/h2>&lt;h3 id="bağımlılıklar">Bağımlılıklar
+&lt;/h3>&lt;p>Proje aşağıdaki tarayıcılarda test edilmiştir:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Google Chrome&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Microsoft Edge&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Brave&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="kurulum">Kurulum
+&lt;/h3>&lt;ol>
+&lt;li>Bu repository&amp;rsquo;yi kendi bilgisayarınıza klonlayın:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git clone https://github.com/seymenkonuk/SYChat.git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>Projeye gidin:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> SYChat
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="3">
+&lt;li>Gerekli yapılandırmaları yaptıktan sonra eklentiyi tarayıcınıza kurunuz.
+&lt;ul>
+&lt;li>Chrome için kurulum aşamaları:
+&lt;ol>
+&lt;li>&lt;code>chrome://extensions/&lt;/code> adresine gidiniz.&lt;/li>
+&lt;li>&lt;strong>Geliştirici Modu&lt;/strong> aktif ediniz.&lt;/li>
+&lt;li>&lt;code>build/&lt;/code> klasörünü tarayıcıya sürükleyiniz.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="yapılandırma">Yapılandırma
+&lt;/h3>&lt;ol>
+&lt;li>Sohbetlerinizde kullanılan anahtarlar, tarayıcının depolamasında şifreli bir şekilde saklanır. Eklenti ayarlarından bu dosyayı dışarı aktarabilir veya içeri aktarabilirsiniz. Şifreleme anahtarı &lt;code>build/src/config.min.js&lt;/code> dosyasındaki key bilgisidir. Güvenliğiniz için bu değeri değiştirmelisiniz.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">export&lt;/span> &lt;span class="kr">const&lt;/span> &lt;span class="nx">key&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;yeni-key-bilgisi&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>Eklentinin ismini değiştirmek isterseniz:
+&lt;ul>
+&lt;li>&lt;code>build/manifest.json&lt;/code> dosyasında &lt;strong>name&lt;/strong>&amp;lsquo;i değiştiriniz.&lt;/li>
+&lt;li>&lt;code>build/src/config.min.js&lt;/code> dosyasında app_name&amp;rsquo;i değiştiriniz.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">export&lt;/span> &lt;span class="kr">const&lt;/span> &lt;span class="nx">app_name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;yeni-app-ismi&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="kullanım">Kullanım
+&lt;/h3>&lt;ul>
+&lt;li>Manuel Anahtar Belirleme
+&lt;ol>
+&lt;li>Bir anahtar belirleyin ya da rastgele oluşturun.&lt;/li>
+&lt;li>Eklentinin pop-up menüsünden anahtarı giriniz.&lt;/li>
+&lt;li>&lt;strong>Anahtarı karşı tarafa güvenli bir şekilde iletiniz.&lt;/strong> (Ör: PGP ile)&lt;/li>
+&lt;li>Karşı taraf da eklentinin pop-up menüsünden anahtarı girmelidir.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/9I8T6yY_dyc"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;ul>
+&lt;li>Diffie-Hellman ile Ortak Anahtar Belirleme
+&lt;ol>
+&lt;li>Karşı tarafa public anahtarınızı gönderiniz.&lt;/li>
+&lt;li>Karşı tarafın kendi public anahtarını göndermesini bekleyiniz.&lt;/li>
+&lt;li>İki tarafta kendi public anahtarını gönderdiğinde; &lt;strong>Diffie-Hellman&lt;/strong> algoritması ile &lt;strong>güvenli&lt;/strong> bir şekilde otomatik olarak ortak anahtar oluşturulur.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/QXbTGolbAIA"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;ul>
+&lt;li>Şifreli Mesaj Gönderme
+&lt;ol>
+&lt;li>Anahtarı belirleyiniz.&lt;/li>
+&lt;li>Mesajı yazınız ve &lt;strong>CTRL+ENTER&lt;/strong> ile gönderiniz.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/FoVyzF53sBg"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;ul>
+&lt;li>Şifreli Dosya Gönderme
+&lt;ol>
+&lt;li>Anahtarı belirleyiniz.&lt;/li>
+&lt;li>Dosyayı sol taraftaki &lt;strong>mavi&lt;/strong> dosya yükleme alanına sürükleyiniz.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/JZq3YjE6Apo"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;ul>
+&lt;li>Şifreli Dosyayı Çözme
+&lt;ol>
+&lt;li>Anahtarı belirleyiniz.&lt;/li>
+&lt;li>Şifreli dosyayı indiriniz.&lt;/li>
+&lt;li>Şifreli dosyayı sol taraftaki &lt;strong>mavi&lt;/strong> dosya yükleme alanına sürükleyiniz.&lt;/li>
+&lt;li>Çözülmüş dosya bilgisayarınıza indirilecektir.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/gb_IqCu1K_c"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div></description></item></channel></rss>
