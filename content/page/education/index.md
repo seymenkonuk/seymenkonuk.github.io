@@ -29,5 +29,5 @@ menu:
   <div>Maltepe / İstanbul</div>
 </div>
 <div style="font-size: 0.95em; color: #666;">
-  GANO: 3.55 / 4.00
+  GANO: 3.55 / 4.00 &nbsp;•&nbsp; Bölüm İkinciliği 🎖️
 </div>
