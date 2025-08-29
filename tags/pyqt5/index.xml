@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PyQT5 on Recep Seymen Konuk</title><link>https://seymenkonuk.github.io/tags/pyqt5/</link><description>Recent content in PyQT5 on Recep Seymen Konuk</description><generator>Hugo -- gohugo.io</generator><language>tr-TR</language><lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://seymenkonuk.github.io/tags/pyqt5/index.xml" rel="self" type="application/rss+xml"/><item><title>Müzik Çalar Uygulaması</title><link>https://seymenkonuk.github.io/post/music-player/</link><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate><guid>https://seymenkonuk.github.io/post/music-player/</guid><description>&lt;img src="https://seymenkonuk.github.io/post/music-player/cover.png" alt="Featured image of post Müzik Çalar Uygulaması" /&gt;&lt;p&gt;Proje kaynak kodlarına &lt;a class="link" href="https://github.com/seymenkonuk/music_player" target="_blank" rel="noopener"
+&gt;GitHub üzerindeki bu repo&lt;/a&gt; aracılığıyla ulaşabilirsiniz.&lt;/p&gt;
+&lt;h2 id="açıklama"&gt;Açıklama
+&lt;/h2&gt;&lt;p&gt;Sunduğu özellikler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kullanıcı kayıt/giriş sistemi&lt;/li&gt;
+&lt;li&gt;E-Posta Adresi Doğrulama&lt;/li&gt;
+&lt;li&gt;Parola Sıfırlama&lt;/li&gt;
+&lt;li&gt;Müzik Dinleme&lt;/li&gt;
+&lt;li&gt;Beğenilen Müzikler&lt;/li&gt;
+&lt;li&gt;Dinleme Geçmişi&lt;/li&gt;
+&lt;li&gt;En Çok Dinlediklerin&lt;/li&gt;
+&lt;li&gt;En Son Eklenenler&lt;/li&gt;
+&lt;li&gt;Oynatma Listesi&lt;/li&gt;
+&lt;li&gt;Sanatçıya Göre Gruplama&lt;/li&gt;
+&lt;li&gt;Liste Karıştırma&lt;/li&gt;
+&lt;li&gt;Döngüye Alma (Döngü kapalı, liste döngüsü, şarkı döngüsü)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kayıt-giriş-sistemi"&gt;Kayıt Giriş Sistemi
+&lt;/h3&gt;&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/YSE_ImISNLc"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h3 id="uygulama-tanıtımı"&gt;Uygulama Tanıtımı
+&lt;/h3&gt;&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/Ni1PGXTpTdg"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h3 id="proje-görselleri"&gt;Proje Görselleri
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://seymenkonuk.github.io/post/music-player/0.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/0_hu_c38f593ee6c9b9e3.png 480w, https://seymenkonuk.github.io/post/music-player/0_hu_2d582767c07ed40b.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/music-player/1.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/1_hu_563cac99bbe41de1.png 480w, https://seymenkonuk.github.io/post/music-player/1_hu_93ada862da69831b.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/music-player/2.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/2_hu_758f2669654f160b.png 480w, https://seymenkonuk.github.io/post/music-player/2_hu_d60e0245b3bc14d3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/music-player/3.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/3_hu_933783aa468e65d1.png 480w, https://seymenkonuk.github.io/post/music-player/3_hu_7762a4ea4f473542.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/music-player/4.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/4_hu_412474da97041d89.png 480w, https://seymenkonuk.github.io/post/music-player/4_hu_5a0f89055adf837.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/music-player/5.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/5_hu_cb31f4225742cee8.png 480w, https://seymenkonuk.github.io/post/music-player/5_hu_15fb21a99b5c3f4e.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/music-player/6.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/6_hu_142e5667d27f95aa.png 480w, https://seymenkonuk.github.io/post/music-player/6_hu_482207dd1f6685d9.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/music-player/7.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/7_hu_f922acd9faa545e3.png 480w, https://seymenkonuk.github.io/post/music-player/7_hu_8070e37ca4c00438.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;&lt;/p&gt;
+&lt;h2 id="başlangıç"&gt;Başlangıç
+&lt;/h2&gt;&lt;h3 id="bağımlılıklar"&gt;Bağımlılıklar
+&lt;/h3&gt;&lt;p&gt;Proje aşağıdaki işletim sistemlerinde test edilmiştir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fedora&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Projenin düzgün çalışabilmesi için aşağıdaki yazılımların sisteminizde kurulu olması gerekir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python Yorumlayıcısı 3.10&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pip&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Makefile&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kurulum"&gt;Kurulum
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Bu repository&amp;rsquo;yi kendi bilgisayarınıza klonlayın:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/seymenkonuk/music_player.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Projeye gidin:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; music_player
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="yapılandırma"&gt;Yapılandırma
+&lt;/h3&gt;&lt;p&gt;Müziklerinizin olduğu root dizini, dinlemek istediğiniz müzik dosya uzantılarını, backend url&amp;rsquo;sini ve uygulama temasını &lt;code&gt;frontends/desktop-app/env/.env&lt;/code&gt; dosyasına yazınız:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;MUSIC_ROOT_PATH&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;C:/Musics&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;MUSIC_FILE_EXTENSIONS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;.mp3;.wav;.ogg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;API_BASE_URL&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;http://localhost:8000&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;THEME&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;light&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Backend&amp;rsquo;in doğrulama ve şifre sıfırlama gibi işlemler için mail gönderebilmesi için &lt;code&gt;backends/client-api/env/.env&lt;/code&gt; dosyasında aşağıdaki değişiklikleri yapınız:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;EMAIL&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;example@example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;PASSWORD&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;example-password&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;DISPLAY_NAME&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Name Surname&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;SMTP_HOST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;smtp.example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;SMTP_PORT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;465&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="çalıştırma"&gt;Çalıştırma
+&lt;/h3&gt;&lt;p&gt;Uygulama &lt;strong&gt;Makefile&lt;/strong&gt; üzerinden kolayca çalıştırılabilir.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Proje için gerekli modülleri yüklemek ve backend&amp;rsquo;i build etmek için&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make build
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Backend&amp;rsquo;i ve Müzik çalar uygulamasını çalıştırmak için&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make run
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Backend olmadan Müzik çalar uygulamasını çalıştırmak için (giriş/kayıt çalışmaz)&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make start
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="atıflar"&gt;Atıflar
+&lt;/h2&gt;&lt;p&gt;Bu projede kullanılan ikonlar &lt;a class="link" href="https://www.freepik.com" target="_blank" rel="noopener"
+&gt;Freepik&lt;/a&gt; tarafından tasarlanmıştır.&lt;/p&gt;
+&lt;p&gt;Icons used in this project are designed by &lt;a class="link" href="https://www.freepik.com" target="_blank" rel="noopener"
+&gt;Freepik&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MySQL on Recep Seymen Konuk</title><link>https://seymenkonuk.github.io/tags/mysql/</link><description>Recent content in MySQL on Recep Seymen Konuk</description><generator>Hugo -- gohugo.io</generator><language>tr-TR</language><lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://seymenkonuk.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml"/><item><title>ROWS: Mini Oyun Konsolu</title><link>https://seymenkonuk.github.io/post/rows/</link><pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate><guid>https://seymenkonuk.github.io/post/rows/</guid><description>&lt;img src="https://seymenkonuk.github.io/post/rows/cover.jpg" alt="Featured image of post ROWS: Mini Oyun Konsolu" /&gt;&lt;p&gt;Proje kaynak kodlarına &lt;a class="link" href="https://github.com/seymenkonuk/rows" target="_blank" rel="noopener"
+&gt;GitHub üzerindeki bu repo&lt;/a&gt; aracılığıyla ulaşabilirsiniz.&lt;/p&gt;
+&lt;h2 id="açıklama"&gt;Açıklama
+&lt;/h2&gt;&lt;p&gt;Bu proje, ESP32 tabanlı bir oyun konsolu ve eğitsel bir oyun yazılımını bir araya getirir.
+Hedefimiz, öğrencilerin algoritmik düşünme becerisini oyun yoluyla eğlenceli ve etkili biçimde geliştirmektir.&lt;br&gt;
+Projede ayrıca, mobil uygulama ile öğretmen ve velilerin öğrenci ilerlemesini takip etmesi planlanmaktadır.&lt;/p&gt;
+&lt;p&gt;Sunduğu özellikler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ESP32 tabanlı taşınabilir oyun konsolu&lt;/li&gt;
+&lt;li&gt;Eğitsel oyun içeriği ile algoritmik düşünme becerisi geliştirme&lt;/li&gt;
+&lt;li&gt;TFT LCD ekran desteği&lt;/li&gt;
+&lt;li&gt;Hoparlör ile kare dalga ses çıkışı&lt;/li&gt;
+&lt;li&gt;Batarya ve TP4056 şarj modülü ile taşınabilirlik&lt;/li&gt;
+&lt;li&gt;Wi-Fi üzerinden HTTP sunucu aracılığıyla cihazı yapılandırma&lt;/li&gt;
+&lt;li&gt;Wi-Fi üzerinden yazılım güncellemesi (OTA)&lt;/li&gt;
+&lt;li&gt;OTA güncellemeleri için PHP tabanlı backend sunucu&lt;/li&gt;
+&lt;li&gt;Backend ve cihaz arasında mTLS (mutual TLS) ile kimlik doğrulama&lt;/li&gt;
+&lt;li&gt;Mobil uygulama ile öğretmen ve velilere ilerleme takibi (geliştirme aşamasında)&lt;/li&gt;
+&lt;li&gt;MQTT protokolü kullanılarak mobil uygulama ile oyun konsolu arasında anlık iletişim (geliştirme aşamasında)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="proje-görselleri"&gt;Proje Görselleri
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://seymenkonuk.github.io/post/rows/device-case-1.jpg"
+width="1636"
+height="1636"
+srcset="https://seymenkonuk.github.io/post/rows/device-case-1_hu_a815d129cd349369.jpg 480w, https://seymenkonuk.github.io/post/rows/device-case-1_hu_ab520576e77f9a64.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/rows/device-case-2.jpg"
+width="2093"
+height="2093"
+srcset="https://seymenkonuk.github.io/post/rows/device-case-2_hu_1fce9c80c5dbd6fe.jpg 480w, https://seymenkonuk.github.io/post/rows/device-case-2_hu_af3ac7da254e15cc.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/rows/device-case-3.jpg"
+width="1743"
+height="1743"
+srcset="https://seymenkonuk.github.io/post/rows/device-case-3_hu_d173870a0e583458.jpg 480w, https://seymenkonuk.github.io/post/rows/device-case-3_hu_8c7d01588064e945.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/rows/device-1.jpg"
+width="2320"
+height="2320"
+srcset="https://seymenkonuk.github.io/post/rows/device-1_hu_5f9d3a31138992fa.jpg 480w, https://seymenkonuk.github.io/post/rows/device-1_hu_ebb3cbfc78eebe53.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/rows/device-2.jpg"
+width="2414"
+height="2407"
+srcset="https://seymenkonuk.github.io/post/rows/device-2_hu_a19957018d8c06b4.jpg 480w, https://seymenkonuk.github.io/post/rows/device-2_hu_d86b4abc97e6a778.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/rows/device-3.jpg"
+width="1865"
+height="1865"
+srcset="https://seymenkonuk.github.io/post/rows/device-3_hu_f437495eb1e72ee7.jpg 480w, https://seymenkonuk.github.io/post/rows/device-3_hu_49eabd486d93dcda.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/rows/device-4.jpg"
+width="3000"
+height="3014"
+srcset="https://seymenkonuk.github.io/post/rows/device-4_hu_175eecf7007c0bfa.jpg 480w, https://seymenkonuk.github.io/post/rows/device-4_hu_8d3e8cd697140bd3.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="99"
+data-flex-basis="238px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/rows/device-5.jpg"
+width="3000"
+height="3014"
+srcset="https://seymenkonuk.github.io/post/rows/device-5_hu_f04fc0367829f9c3.jpg 480w, https://seymenkonuk.github.io/post/rows/device-5_hu_7f4b618baec60f64.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="99"
+data-flex-basis="238px"
+&gt;&lt;/p&gt;
+&lt;h2 id="oyun-hakkında"&gt;Oyun Hakkında
+&lt;/h2&gt;&lt;p&gt;Bu oyun, “Ateş” karakterini yönlendirerek tüm paraları toplamayı ve suya temas etmeden en kısa yoldan çıkış kapısına ulaşmayı hedefler.&lt;/p&gt;
+&lt;p&gt;Oyun alanında iki zemin türü bulunur:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Orman&lt;/strong&gt;: Serbestçe yürüyebileceğin güvenli alanlar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Buz&lt;/strong&gt;: Üzerinden geçtikçe eriyen ve bir daha adım atılamayan zeminler.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/kfuwlQL-BFg"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id="bileşenler"&gt;Bileşenler
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Bileşen&lt;/th&gt;
+&lt;th&gt;Miktar&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ESP32&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2.8&amp;quot; SPI TFT Ekran (ILI9341)&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hoparlör&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3.7V 1S 40C Lipo Batarya&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TP4056 Şarj Modülü&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Regülatör&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Buton&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;90 Derece Sürgülü Switch&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8x12cm Çift Yüzlü Pertinaks&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1x40 Dişi Pin Header&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1x40 Erkek Pin Header&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Direnç&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kablo&lt;/td&gt;
+&lt;td&gt;10+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="maliyet"&gt;Maliyet
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Bileşen&lt;/th&gt;
+&lt;th&gt;Tahmini Fiyat (TL)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ESP32&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2.8&amp;quot; SPI TFT Ekran (ILI9341)&lt;/td&gt;
+&lt;td&gt;500&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hoparlör&lt;/td&gt;
+&lt;td&gt;60&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3.7V 1S 40C Lipo Batarya&lt;/td&gt;
+&lt;td&gt;400&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TP4056 Şarj Modülü&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Regülatör&lt;/td&gt;
+&lt;td&gt;75&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Buton&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;90 Derece Sürgülü Switch&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8x12cm Çift Yüzlü Pertinaks&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1x40 Dişi Pin Header&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1x40 Erkek Pin Header&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Direnç&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kablo&lt;/td&gt;
+&lt;td&gt;68&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Toplam yaklaşık maliyet: 1585 TL&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="devre-şeması"&gt;Devre Şeması
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://seymenkonuk.github.io/post/rows/schematic.png"
+width="1662"
+height="1662"
+srcset="https://seymenkonuk.github.io/post/rows/schematic_hu_cef44fd2be7fcc94.png 480w, https://seymenkonuk.github.io/post/rows/schematic_hu_81af2115aebb6b22.png 1024w"
+loading="lazy"
+alt="Devre Şeması"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;&lt;/p&gt;
+&lt;h2 id="wi-fi-yapılandırması"&gt;Wi-Fi Yapılandırması
+&lt;/h2&gt;&lt;p&gt;Cihaz kendi Wi-Fi ağını oluşturur (ROWS-&amp;lt;Seri-Numarası&amp;gt;).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bilgisayar veya mobil cihazınız ile bu ağa bağlanın.&lt;/li&gt;
+&lt;li&gt;Ağın parolası &lt;code&gt;frontends/device-firmware/data/wifi/ap/PASS&lt;/code&gt; dosyasında yazmaktadır.&lt;/li&gt;
+&lt;li&gt;Tarayıcıdan &lt;code&gt;http://192.168.4.1&lt;/code&gt; adresine gidin.&lt;/li&gt;
+&lt;li&gt;Sizden istenen CN ve PASS bilgilerini giriniz.&lt;/li&gt;
+&lt;li&gt;Açılan yapılandırma sayfasından Wi-Fi SSID ve parola bilgilerini giriniz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://seymenkonuk.github.io/post/rows/wifi-config.jpg"
+width="1080"
+height="1920"
+srcset="https://seymenkonuk.github.io/post/rows/wifi-config_hu_353cbc92ef2f38d8.jpg 480w, https://seymenkonuk.github.io/post/rows/wifi-config_hu_144b0a65516b182d.jpg 1024w"
+loading="lazy"
+alt="Yapılandırma Sayfası"
+class="gallery-image"
+data-flex-grow="56"
+data-flex-basis="135px"
+&gt;&lt;/p&gt;
+&lt;h2 id="kurulum"&gt;Kurulum
+&lt;/h2&gt;&lt;h3 id="yapılandırma"&gt;Yapılandırma
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a class="link" href="https://platformio.org/" target="_blank" rel="noopener"
+&gt;PlatformIO&lt;/a&gt; eklentili Visual Studio Code’u indirip kurun.&lt;/li&gt;
+&lt;li&gt;Projeyi klonlayın:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/seymenkonuk/ROWS.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ROWS
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="3"&gt;
+&lt;li&gt;&lt;code&gt;frontends/device-firmware/include/rows_api.h&lt;/code&gt; dosyasındaki &amp;lt;your-domain&amp;gt; kısmını değiştiriniz.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;utils/ecc-certificate-generator/cnf/server.cnf&lt;/code&gt; dosyasındaki &amp;lt;your-domain&amp;gt; kısımlarını değiştiriniz.&lt;/li&gt;
+&lt;li&gt;backend&amp;rsquo;i çalıştırın (isteğe bağlı)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="yükleme"&gt;Yükleme
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;frontends/device-firmware&lt;/code&gt; dizinini Visual Studio Code ile açın. Gerekli kütüphaneler otomatik yüklenecektir.&lt;/li&gt;
+&lt;li&gt;Her cihaz için benzersiz sertifika üretin:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; utils/ecc-certificate-generator
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./generate.sh reset
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="3"&gt;
+&lt;li&gt;ESP32 cihazınızı bağlayıp PlatformIO üzerinden &lt;code&gt;Upload&lt;/code&gt; yapın.&lt;/li&gt;
+&lt;li&gt;ESP32 cihazınızı bağlayıp PlatformIO üzerinden &lt;code&gt;Upload Filesystem Image&lt;/code&gt; yapın.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="gelecek-planlar"&gt;Gelecek Planlar
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Oyuna öğretici mod eklenmesi&lt;/li&gt;
+&lt;li&gt;Mobil uygulamanın geliştirilmesi&lt;/li&gt;
+&lt;li&gt;Yeni oyunların eklenmesi&lt;/li&gt;
+&lt;li&gt;3B yazıcı ile kasa tasarımı ve üretilmesi&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

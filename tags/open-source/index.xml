@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Açık Kaynak on Recep Seymen Konuk</title><link>https://seymenkonuk.github.io/tags/open-source/</link><description>Recent content in Açık Kaynak on Recep Seymen Konuk</description><generator>Hugo -- gohugo.io</generator><language>tr-TR</language><lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://seymenkonuk.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>Müzik Çalar Uygulaması</title><link>https://seymenkonuk.github.io/post/music-player/</link><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate><guid>https://seymenkonuk.github.io/post/music-player/</guid><description>&lt;img src="https://seymenkonuk.github.io/post/music-player/cover.png" alt="Featured image of post Müzik Çalar Uygulaması" /&gt;&lt;p&gt;Proje kaynak kodlarına &lt;a class="link" href="https://github.com/seymenkonuk/music_player" target="_blank" rel="noopener"
+&gt;GitHub üzerindeki bu repo&lt;/a&gt; aracılığıyla ulaşabilirsiniz.&lt;/p&gt;
+&lt;h2 id="açıklama"&gt;Açıklama
+&lt;/h2&gt;&lt;p&gt;Sunduğu özellikler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kullanıcı kayıt/giriş sistemi&lt;/li&gt;
+&lt;li&gt;E-Posta Adresi Doğrulama&lt;/li&gt;
+&lt;li&gt;Parola Sıfırlama&lt;/li&gt;
+&lt;li&gt;Müzik Dinleme&lt;/li&gt;
+&lt;li&gt;Beğenilen Müzikler&lt;/li&gt;
+&lt;li&gt;Dinleme Geçmişi&lt;/li&gt;
+&lt;li&gt;En Çok Dinlediklerin&lt;/li&gt;
+&lt;li&gt;En Son Eklenenler&lt;/li&gt;
+&lt;li&gt;Oynatma Listesi&lt;/li&gt;
+&lt;li&gt;Sanatçıya Göre Gruplama&lt;/li&gt;
+&lt;li&gt;Liste Karıştırma&lt;/li&gt;
+&lt;li&gt;Döngüye Alma (Döngü kapalı, liste döngüsü, şarkı döngüsü)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kayıt-giriş-sistemi"&gt;Kayıt Giriş Sistemi
+&lt;/h3&gt;&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/YSE_ImISNLc"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h3 id="uygulama-tanıtımı"&gt;Uygulama Tanıtımı
+&lt;/h3&gt;&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/Ni1PGXTpTdg"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h3 id="proje-görselleri"&gt;Proje Görselleri
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://seymenkonuk.github.io/post/music-player/0.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/0_hu_c38f593ee6c9b9e3.png 480w, https://seymenkonuk.github.io/post/music-player/0_hu_2d582767c07ed40b.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/music-player/1.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/1_hu_563cac99bbe41de1.png 480w, https://seymenkonuk.github.io/post/music-player/1_hu_93ada862da69831b.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/music-player/2.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/2_hu_758f2669654f160b.png 480w, https://seymenkonuk.github.io/post/music-player/2_hu_d60e0245b3bc14d3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/music-player/3.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/3_hu_933783aa468e65d1.png 480w, https://seymenkonuk.github.io/post/music-player/3_hu_7762a4ea4f473542.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/music-player/4.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/4_hu_412474da97041d89.png 480w, https://seymenkonuk.github.io/post/music-player/4_hu_5a0f89055adf837.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/music-player/5.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/5_hu_cb31f4225742cee8.png 480w, https://seymenkonuk.github.io/post/music-player/5_hu_15fb21a99b5c3f4e.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/music-player/6.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/6_hu_142e5667d27f95aa.png 480w, https://seymenkonuk.github.io/post/music-player/6_hu_482207dd1f6685d9.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/music-player/7.png"
+width="1122"
+height="784"
+srcset="https://seymenkonuk.github.io/post/music-player/7_hu_f922acd9faa545e3.png 480w, https://seymenkonuk.github.io/post/music-player/7_hu_8070e37ca4c00438.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="143"
+data-flex-basis="343px"
+&gt;&lt;/p&gt;
+&lt;h2 id="başlangıç"&gt;Başlangıç
+&lt;/h2&gt;&lt;h3 id="bağımlılıklar"&gt;Bağımlılıklar
+&lt;/h3&gt;&lt;p&gt;Proje aşağıdaki işletim sistemlerinde test edilmiştir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fedora&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Projenin düzgün çalışabilmesi için aşağıdaki yazılımların sisteminizde kurulu olması gerekir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python Yorumlayıcısı 3.10&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pip&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Makefile&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kurulum"&gt;Kurulum
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Bu repository&amp;rsquo;yi kendi bilgisayarınıza klonlayın:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/seymenkonuk/music_player.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Projeye gidin:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; music_player
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="yapılandırma"&gt;Yapılandırma
+&lt;/h3&gt;&lt;p&gt;Müziklerinizin olduğu root dizini, dinlemek istediğiniz müzik dosya uzantılarını, backend url&amp;rsquo;sini ve uygulama temasını &lt;code&gt;frontends/desktop-app/env/.env&lt;/code&gt; dosyasına yazınız:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;MUSIC_ROOT_PATH&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;C:/Musics&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;MUSIC_FILE_EXTENSIONS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;.mp3;.wav;.ogg&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;API_BASE_URL&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;http://localhost:8000&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;THEME&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;light&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Backend&amp;rsquo;in doğrulama ve şifre sıfırlama gibi işlemler için mail gönderebilmesi için &lt;code&gt;backends/client-api/env/.env&lt;/code&gt; dosyasında aşağıdaki değişiklikleri yapınız:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;EMAIL&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;example@example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;PASSWORD&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;example-password&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;DISPLAY_NAME&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Name Surname&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;SMTP_HOST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;smtp.example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;SMTP_PORT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;465&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="çalıştırma"&gt;Çalıştırma
+&lt;/h3&gt;&lt;p&gt;Uygulama &lt;strong&gt;Makefile&lt;/strong&gt; üzerinden kolayca çalıştırılabilir.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Proje için gerekli modülleri yüklemek ve backend&amp;rsquo;i build etmek için&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make build
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Backend&amp;rsquo;i ve Müzik çalar uygulamasını çalıştırmak için&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make run
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Backend olmadan Müzik çalar uygulamasını çalıştırmak için (giriş/kayıt çalışmaz)&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make start
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="atıflar"&gt;Atıflar
+&lt;/h2&gt;&lt;p&gt;Bu projede kullanılan ikonlar &lt;a class="link" href="https://www.freepik.com" target="_blank" rel="noopener"
+&gt;Freepik&lt;/a&gt; tarafından tasarlanmıştır.&lt;/p&gt;
+&lt;p&gt;Icons used in this project are designed by &lt;a class="link" href="https://www.freepik.com" target="_blank" rel="noopener"
+&gt;Freepik&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>ROWS: Mini Oyun Konsolu</title><link>https://seymenkonuk.github.io/post/rows/</link><pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate><guid>https://seymenkonuk.github.io/post/rows/</guid><description>&lt;img src="https://seymenkonuk.github.io/post/rows/cover.jpg" alt="Featured image of post ROWS: Mini Oyun Konsolu" /&gt;&lt;p&gt;Proje kaynak kodlarına &lt;a class="link" href="https://github.com/seymenkonuk/rows" target="_blank" rel="noopener"
+&gt;GitHub üzerindeki bu repo&lt;/a&gt; aracılığıyla ulaşabilirsiniz.&lt;/p&gt;
+&lt;h2 id="açıklama"&gt;Açıklama
+&lt;/h2&gt;&lt;p&gt;Bu proje, ESP32 tabanlı bir oyun konsolu ve eğitsel bir oyun yazılımını bir araya getirir.
+Hedefimiz, öğrencilerin algoritmik düşünme becerisini oyun yoluyla eğlenceli ve etkili biçimde geliştirmektir.&lt;br&gt;
+Projede ayrıca, mobil uygulama ile öğretmen ve velilerin öğrenci ilerlemesini takip etmesi planlanmaktadır.&lt;/p&gt;
+&lt;p&gt;Sunduğu özellikler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ESP32 tabanlı taşınabilir oyun konsolu&lt;/li&gt;
+&lt;li&gt;Eğitsel oyun içeriği ile algoritmik düşünme becerisi geliştirme&lt;/li&gt;
+&lt;li&gt;TFT LCD ekran desteği&lt;/li&gt;
+&lt;li&gt;Hoparlör ile kare dalga ses çıkışı&lt;/li&gt;
+&lt;li&gt;Batarya ve TP4056 şarj modülü ile taşınabilirlik&lt;/li&gt;
+&lt;li&gt;Wi-Fi üzerinden HTTP sunucu aracılığıyla cihazı yapılandırma&lt;/li&gt;
+&lt;li&gt;Wi-Fi üzerinden yazılım güncellemesi (OTA)&lt;/li&gt;
+&lt;li&gt;OTA güncellemeleri için PHP tabanlı backend sunucu&lt;/li&gt;
+&lt;li&gt;Backend ve cihaz arasında mTLS (mutual TLS) ile kimlik doğrulama&lt;/li&gt;
+&lt;li&gt;Mobil uygulama ile öğretmen ve velilere ilerleme takibi (geliştirme aşamasında)&lt;/li&gt;
+&lt;li&gt;MQTT protokolü kullanılarak mobil uygulama ile oyun konsolu arasında anlık iletişim (geliştirme aşamasında)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="proje-görselleri"&gt;Proje Görselleri
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://seymenkonuk.github.io/post/rows/device-case-1.jpg"
+width="1636"
+height="1636"
+srcset="https://seymenkonuk.github.io/post/rows/device-case-1_hu_a815d129cd349369.jpg 480w, https://seymenkonuk.github.io/post/rows/device-case-1_hu_ab520576e77f9a64.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/rows/device-case-2.jpg"
+width="2093"
+height="2093"
+srcset="https://seymenkonuk.github.io/post/rows/device-case-2_hu_1fce9c80c5dbd6fe.jpg 480w, https://seymenkonuk.github.io/post/rows/device-case-2_hu_af3ac7da254e15cc.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/rows/device-case-3.jpg"
+width="1743"
+height="1743"
+srcset="https://seymenkonuk.github.io/post/rows/device-case-3_hu_d173870a0e583458.jpg 480w, https://seymenkonuk.github.io/post/rows/device-case-3_hu_8c7d01588064e945.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/rows/device-1.jpg"
+width="2320"
+height="2320"
+srcset="https://seymenkonuk.github.io/post/rows/device-1_hu_5f9d3a31138992fa.jpg 480w, https://seymenkonuk.github.io/post/rows/device-1_hu_ebb3cbfc78eebe53.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/rows/device-2.jpg"
+width="2414"
+height="2407"
+srcset="https://seymenkonuk.github.io/post/rows/device-2_hu_a19957018d8c06b4.jpg 480w, https://seymenkonuk.github.io/post/rows/device-2_hu_d86b4abc97e6a778.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/rows/device-3.jpg"
+width="1865"
+height="1865"
+srcset="https://seymenkonuk.github.io/post/rows/device-3_hu_f437495eb1e72ee7.jpg 480w, https://seymenkonuk.github.io/post/rows/device-3_hu_49eabd486d93dcda.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/rows/device-4.jpg"
+width="3000"
+height="3014"
+srcset="https://seymenkonuk.github.io/post/rows/device-4_hu_175eecf7007c0bfa.jpg 480w, https://seymenkonuk.github.io/post/rows/device-4_hu_8d3e8cd697140bd3.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="99"
+data-flex-basis="238px"
+&gt;
+&lt;img src="https://seymenkonuk.github.io/post/rows/device-5.jpg"
+width="3000"
+height="3014"
+srcset="https://seymenkonuk.github.io/post/rows/device-5_hu_f04fc0367829f9c3.jpg 480w, https://seymenkonuk.github.io/post/rows/device-5_hu_7f4b618baec60f64.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="99"
+data-flex-basis="238px"
+&gt;&lt;/p&gt;
+&lt;h2 id="oyun-hakkında"&gt;Oyun Hakkında
+&lt;/h2&gt;&lt;p&gt;Bu oyun, “Ateş” karakterini yönlendirerek tüm paraları toplamayı ve suya temas etmeden en kısa yoldan çıkış kapısına ulaşmayı hedefler.&lt;/p&gt;
+&lt;p&gt;Oyun alanında iki zemin türü bulunur:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Orman&lt;/strong&gt;: Serbestçe yürüyebileceğin güvenli alanlar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Buz&lt;/strong&gt;: Üzerinden geçtikçe eriyen ve bir daha adım atılamayan zeminler.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/kfuwlQL-BFg"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id="bileşenler"&gt;Bileşenler
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Bileşen&lt;/th&gt;
+&lt;th&gt;Miktar&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ESP32&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2.8&amp;quot; SPI TFT Ekran (ILI9341)&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hoparlör&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3.7V 1S 40C Lipo Batarya&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TP4056 Şarj Modülü&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Regülatör&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Buton&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;90 Derece Sürgülü Switch&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8x12cm Çift Yüzlü Pertinaks&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1x40 Dişi Pin Header&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1x40 Erkek Pin Header&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Direnç&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kablo&lt;/td&gt;
+&lt;td&gt;10+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="maliyet"&gt;Maliyet
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Bileşen&lt;/th&gt;
+&lt;th&gt;Tahmini Fiyat (TL)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ESP32&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2.8&amp;quot; SPI TFT Ekran (ILI9341)&lt;/td&gt;
+&lt;td&gt;500&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hoparlör&lt;/td&gt;
+&lt;td&gt;60&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3.7V 1S 40C Lipo Batarya&lt;/td&gt;
+&lt;td&gt;400&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TP4056 Şarj Modülü&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Regülatör&lt;/td&gt;
+&lt;td&gt;75&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Buton&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;90 Derece Sürgülü Switch&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8x12cm Çift Yüzlü Pertinaks&lt;/td&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1x40 Dişi Pin Header&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1x40 Erkek Pin Header&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Direnç&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kablo&lt;/td&gt;
+&lt;td&gt;68&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Toplam yaklaşık maliyet: 1585 TL&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="devre-şeması"&gt;Devre Şeması
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://seymenkonuk.github.io/post/rows/schematic.png"
+width="1662"
+height="1662"
+srcset="https://seymenkonuk.github.io/post/rows/schematic_hu_cef44fd2be7fcc94.png 480w, https://seymenkonuk.github.io/post/rows/schematic_hu_81af2115aebb6b22.png 1024w"
+loading="lazy"
+alt="Devre Şeması"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;&lt;/p&gt;
+&lt;h2 id="wi-fi-yapılandırması"&gt;Wi-Fi Yapılandırması
+&lt;/h2&gt;&lt;p&gt;Cihaz kendi Wi-Fi ağını oluşturur (ROWS-&amp;lt;Seri-Numarası&amp;gt;).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bilgisayar veya mobil cihazınız ile bu ağa bağlanın.&lt;/li&gt;
+&lt;li&gt;Ağın parolası &lt;code&gt;frontends/device-firmware/data/wifi/ap/PASS&lt;/code&gt; dosyasında yazmaktadır.&lt;/li&gt;
+&lt;li&gt;Tarayıcıdan &lt;code&gt;http://192.168.4.1&lt;/code&gt; adresine gidin.&lt;/li&gt;
+&lt;li&gt;Sizden istenen CN ve PASS bilgilerini giriniz.&lt;/li&gt;
+&lt;li&gt;Açılan yapılandırma sayfasından Wi-Fi SSID ve parola bilgilerini giriniz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://seymenkonuk.github.io/post/rows/wifi-config.jpg"
+width="1080"
+height="1920"
+srcset="https://seymenkonuk.github.io/post/rows/wifi-config_hu_353cbc92ef2f38d8.jpg 480w, https://seymenkonuk.github.io/post/rows/wifi-config_hu_144b0a65516b182d.jpg 1024w"
+loading="lazy"
+alt="Yapılandırma Sayfası"
+class="gallery-image"
+data-flex-grow="56"
+data-flex-basis="135px"
+&gt;&lt;/p&gt;
+&lt;h2 id="kurulum"&gt;Kurulum
+&lt;/h2&gt;&lt;h3 id="yapılandırma"&gt;Yapılandırma
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a class="link" href="https://platformio.org/" target="_blank" rel="noopener"
+&gt;PlatformIO&lt;/a&gt; eklentili Visual Studio Code’u indirip kurun.&lt;/li&gt;
+&lt;li&gt;Projeyi klonlayın:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/seymenkonuk/ROWS.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ROWS
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="3"&gt;
+&lt;li&gt;&lt;code&gt;frontends/device-firmware/include/rows_api.h&lt;/code&gt; dosyasındaki &amp;lt;your-domain&amp;gt; kısmını değiştiriniz.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;utils/ecc-certificate-generator/cnf/server.cnf&lt;/code&gt; dosyasındaki &amp;lt;your-domain&amp;gt; kısımlarını değiştiriniz.&lt;/li&gt;
+&lt;li&gt;backend&amp;rsquo;i çalıştırın (isteğe bağlı)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="yükleme"&gt;Yükleme
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;frontends/device-firmware&lt;/code&gt; dizinini Visual Studio Code ile açın. Gerekli kütüphaneler otomatik yüklenecektir.&lt;/li&gt;
+&lt;li&gt;Her cihaz için benzersiz sertifika üretin:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; utils/ecc-certificate-generator
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;./generate.sh reset
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="3"&gt;
+&lt;li&gt;ESP32 cihazınızı bağlayıp PlatformIO üzerinden &lt;code&gt;Upload&lt;/code&gt; yapın.&lt;/li&gt;
+&lt;li&gt;ESP32 cihazınızı bağlayıp PlatformIO üzerinden &lt;code&gt;Upload Filesystem Image&lt;/code&gt; yapın.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="gelecek-planlar"&gt;Gelecek Planlar
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Oyuna öğretici mod eklenmesi&lt;/li&gt;
+&lt;li&gt;Mobil uygulamanın geliştirilmesi&lt;/li&gt;
+&lt;li&gt;Yeni oyunların eklenmesi&lt;/li&gt;
+&lt;li&gt;3B yazıcı ile kasa tasarımı ve üretilmesi&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>SYPass: Parola Yöneticisi</title><link>https://seymenkonuk.github.io/post/sypass/</link><pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate><guid>https://seymenkonuk.github.io/post/sypass/</guid><description>&lt;p&gt;Proje kaynak kodlarına &lt;a class="link" href="https://github.com/seymenkonuk/SYPass" target="_blank" rel="noopener"
+&gt;GitHub üzerindeki bu repo&lt;/a&gt; aracılığıyla ulaşabilirsiniz.&lt;/p&gt;
+&lt;h2 id="açıklama"&gt;Açıklama
+&lt;/h2&gt;&lt;p&gt;Kullanıcılar, farklı hesaplar için güçlü ve benzersiz parolalar oluşturabilir, saklayabilir ve hızlıca erişebilir. Eklenti, parolaları şifreli bir şekilde saklar ve sadece doğru anahtar ile erişim sağlar. Kullanıcı dostu bir arayüz sunarak, parolalarınızı kolayca ekleyip düzenlemenize olanak tanır.&lt;/p&gt;
+&lt;p&gt;Sunduğu özellikler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Güçlü parola oluşturucu&lt;/li&gt;
+&lt;li&gt;Parolaların şifreli saklanması&lt;/li&gt;
+&lt;li&gt;Otomatik form doldurma&lt;/li&gt;
+&lt;li&gt;Parolalarınızı aktif sekmenin base-domain&amp;rsquo;ine göre gruplama&lt;/li&gt;
+&lt;li&gt;Parolalarınızı dosya olarak dışarı aktarma ve dosyayı içeri aktarma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="tanıtım"&gt;Tanıtım
+&lt;/h3&gt;&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/u3CtZp4M1lY"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id="başlangıç"&gt;Başlangıç
+&lt;/h2&gt;&lt;h3 id="bağımlılıklar"&gt;Bağımlılıklar
+&lt;/h3&gt;&lt;p&gt;Proje aşağıdaki tarayıcılarda test edilmiştir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Chrome&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft Edge&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Brave&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kurulum"&gt;Kurulum
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Bu repository&amp;rsquo;yi kendi bilgisayarınıza klonlayın:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/seymenkonuk/SYPass.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Projeye gidin:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; SYPass
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="3"&gt;
+&lt;li&gt;Gerekli yapılandırmaları yaptıktan sonra eklentiyi tarayıcınıza kurunuz.
+&lt;ul&gt;
+&lt;li&gt;Chrome için kurulum aşamaları:
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;chrome://extensions/&lt;/code&gt; adresine gidiniz.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Geliştirici Modu&lt;/strong&gt; aktif ediniz.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;build/&lt;/code&gt; klasörünü tarayıcıya sürükleyiniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="yapılandırma"&gt;Yapılandırma
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Ayarlarınız, tarayıcının depolamasında şifreli bir şekilde saklanır. Eklenti ayarlarından bu dosyayı dışarı aktarabilir veya içeri aktarabilirsiniz. Şifreleme anahtarı &lt;code&gt;build/src/config.min.js&lt;/code&gt; dosyasındaki key bilgisidir. Güvenliğiniz için bu değeri değiştirmelisiniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;export&lt;/span&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;key&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;yeni-key-bilgisi&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Eklentinin ismini değiştirmek isterseniz:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;build/manifest.json&lt;/code&gt; dosyasında &lt;strong&gt;name&lt;/strong&gt;&amp;lsquo;i değiştiriniz.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;build/src/config.min.js&lt;/code&gt; dosyasında app_name&amp;rsquo;i değiştiriniz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;export&lt;/span&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;app_name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;yeni-app-ismi&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>SYChat: WhatsApp için Ekstra Şifreleme</title><link>https://seymenkonuk.github.io/post/sychat/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0300</pubDate><guid>https://seymenkonuk.github.io/post/sychat/</guid><description>&lt;p&gt;Proje kaynak kodlarına &lt;a class="link" href="https://github.com/seymenkonuk/SYChat" target="_blank" rel="noopener"
+&gt;GitHub üzerindeki bu repo&lt;/a&gt; aracılığıyla ulaşabilirsiniz.&lt;/p&gt;
+&lt;h2 id="açıklama"&gt;Açıklama
+&lt;/h2&gt;&lt;p&gt;Bu Chrome eklentisi, WhatsApp Web&amp;rsquo;teki mesajlar için ek bir güvenlik katmanı sağlar. WhatsApp Web&amp;rsquo;in yerleşik şifreleme özelliklerine ek olarak, mesajlarınızı AES (Advanced Encryption Standard) algoritması ile ekstra bir şifrelemeye tabi tutarak gizliliğinizi daha da artırır.&lt;/p&gt;
+&lt;p&gt;Sunduğu özellikler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mesajları şifreleme / çözme&lt;/li&gt;
+&lt;li&gt;Dosyaları şifreleme / çözme&lt;/li&gt;
+&lt;li&gt;Sohbetin ortak anahtarını manuel belirleme&lt;/li&gt;
+&lt;li&gt;Ortak anahtar belirlemek için Diffie-Hellman kullanma&lt;/li&gt;
+&lt;li&gt;Anahtarları dosya olarak dışarı aktarma ve dosyayı içeri aktarma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="tanıtım"&gt;Tanıtım
+&lt;/h3&gt;&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/M6rjjuHJ8M8"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id="başlangıç"&gt;Başlangıç
+&lt;/h2&gt;&lt;h3 id="bağımlılıklar"&gt;Bağımlılıklar
+&lt;/h3&gt;&lt;p&gt;Proje aşağıdaki tarayıcılarda test edilmiştir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Chrome&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft Edge&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Brave&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kurulum"&gt;Kurulum
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Bu repository&amp;rsquo;yi kendi bilgisayarınıza klonlayın:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/seymenkonuk/SYChat.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Projeye gidin:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; SYChat
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="3"&gt;
+&lt;li&gt;Gerekli yapılandırmaları yaptıktan sonra eklentiyi tarayıcınıza kurunuz.
+&lt;ul&gt;
+&lt;li&gt;Chrome için kurulum aşamaları:
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;chrome://extensions/&lt;/code&gt; adresine gidiniz.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Geliştirici Modu&lt;/strong&gt; aktif ediniz.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;build/&lt;/code&gt; klasörünü tarayıcıya sürükleyiniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="yapılandırma"&gt;Yapılandırma
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Sohbetlerinizde kullanılan anahtarlar, tarayıcının depolamasında şifreli bir şekilde saklanır. Eklenti ayarlarından bu dosyayı dışarı aktarabilir veya içeri aktarabilirsiniz. Şifreleme anahtarı &lt;code&gt;build/src/config.min.js&lt;/code&gt; dosyasındaki key bilgisidir. Güvenliğiniz için bu değeri değiştirmelisiniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;export&lt;/span&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;key&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;yeni-key-bilgisi&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Eklentinin ismini değiştirmek isterseniz:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;build/manifest.json&lt;/code&gt; dosyasında &lt;strong&gt;name&lt;/strong&gt;&amp;lsquo;i değiştiriniz.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;build/src/config.min.js&lt;/code&gt; dosyasında app_name&amp;rsquo;i değiştiriniz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;export&lt;/span&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;app_name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;yeni-app-ismi&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="kullanım"&gt;Kullanım
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Manuel Anahtar Belirleme
+&lt;ol&gt;
+&lt;li&gt;Bir anahtar belirleyin ya da rastgele oluşturun.&lt;/li&gt;
+&lt;li&gt;Eklentinin pop-up menüsünden anahtarı giriniz.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anahtarı karşı tarafa güvenli bir şekilde iletiniz.&lt;/strong&gt; (Ör: PGP ile)&lt;/li&gt;
+&lt;li&gt;Karşı taraf da eklentinin pop-up menüsünden anahtarı girmelidir.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/9I8T6yY_dyc"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Diffie-Hellman ile Ortak Anahtar Belirleme
+&lt;ol&gt;
+&lt;li&gt;Karşı tarafa public anahtarınızı gönderiniz.&lt;/li&gt;
+&lt;li&gt;Karşı tarafın kendi public anahtarını göndermesini bekleyiniz.&lt;/li&gt;
+&lt;li&gt;İki tarafta kendi public anahtarını gönderdiğinde; &lt;strong&gt;Diffie-Hellman&lt;/strong&gt; algoritması ile &lt;strong&gt;güvenli&lt;/strong&gt; bir şekilde otomatik olarak ortak anahtar oluşturulur.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/QXbTGolbAIA"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Şifreli Mesaj Gönderme
+&lt;ol&gt;
+&lt;li&gt;Anahtarı belirleyiniz.&lt;/li&gt;
+&lt;li&gt;Mesajı yazınız ve &lt;strong&gt;CTRL+ENTER&lt;/strong&gt; ile gönderiniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/FoVyzF53sBg"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Şifreli Dosya Gönderme
+&lt;ol&gt;
+&lt;li&gt;Anahtarı belirleyiniz.&lt;/li&gt;
+&lt;li&gt;Dosyayı sol taraftaki &lt;strong&gt;mavi&lt;/strong&gt; dosya yükleme alanına sürükleyiniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/JZq3YjE6Apo"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Şifreli Dosyayı Çözme
+&lt;ol&gt;
+&lt;li&gt;Anahtarı belirleyiniz.&lt;/li&gt;
+&lt;li&gt;Şifreli dosyayı indiriniz.&lt;/li&gt;
+&lt;li&gt;Şifreli dosyayı sol taraftaki &lt;strong&gt;mavi&lt;/strong&gt; dosya yükleme alanına sürükleyiniz.&lt;/li&gt;
+&lt;li&gt;Çözülmüş dosya bilgisayarınıza indirilecektir.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/gb_IqCu1K_c"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;</description></item><item><title>E-Posta Otomasyonu</title><link>https://seymenkonuk.github.io/post/email-automation/</link><pubDate>Sun, 09 Mar 2025 00:00:00 +0300</pubDate><guid>https://seymenkonuk.github.io/post/email-automation/</guid><description>&lt;p&gt;Proje kaynak kodlarına &lt;a class="link" href="https://github.com/seymenkonuk/mail_sender" target="_blank" rel="noopener"
+&gt;GitHub üzerindeki bu repo&lt;/a&gt; aracılığıyla ulaşabilirsiniz.&lt;/p&gt;
+&lt;h2 id="açıklama"&gt;Açıklama
+&lt;/h2&gt;&lt;p&gt;Sunduğu özellikler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kişiselleştirilmiş mail içeriği&lt;/li&gt;
+&lt;li&gt;Kişiselleştirilmiş mail ekleri&lt;/li&gt;
+&lt;li&gt;HTML / plain mail gönderebilme&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://seymenkonuk.github.io/post/certificate-automation" target="_blank" rel="noopener"
+&gt;Sertifika Otomasyonu&lt;/a&gt; ile entegre olarak, sertifikaları ilgili kişilere hızlı bir şekilde mail olarak gönderebilme&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="örnek-kullanım"&gt;Örnek Kullanım
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Her öğrenciye özel sınav notunu içeren e-posta gönderebilirsiniz.&lt;/li&gt;
+&lt;li&gt;Kursu tamamlayan her öğrenciye, isimlerine özel sertifika e-postalayabilirsiniz.&lt;/li&gt;
+&lt;li&gt;Etkinliğe katılan herkese, kişiye özel teşekkür e-postası gönderebilirsiniz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="başlangıç"&gt;Başlangıç
+&lt;/h2&gt;&lt;h3 id="bağımlılıklar"&gt;Bağımlılıklar
+&lt;/h3&gt;&lt;p&gt;Proje aşağıdaki işletim sistemlerinde test edilmiştir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows 10&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Windows 11&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Debian&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Projenin düzgün çalışabilmesi için aşağıdaki yazılımların sisteminizde kurulu olması gerekir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python Yorumlayıcısı 3.9&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pip&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker&lt;/strong&gt; (docker ortamında çalıştıracaksanız)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kurulum"&gt;Kurulum
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Bu repository&amp;rsquo;yi kendi bilgisayarınıza klonlayın:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/seymenkonuk/mail_sender.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Projeye gidin:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; mail_sender
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="yapılandırma"&gt;Yapılandırma
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Mailde yazacak yazı için bir şablon oluşturmak için &lt;code&gt;temp_messages/&lt;/code&gt; dizini altına &lt;strong&gt;&amp;quot;&amp;lt;şablon_ismi&amp;gt;&amp;quot;&lt;/strong&gt; adında bir dizin oluşturun.&lt;/li&gt;
+&lt;li&gt;Bu dizinin altına &lt;strong&gt;message.conf&lt;/strong&gt; ve &lt;strong&gt;message.txt&lt;/strong&gt; adında iki dosya oluşturun.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;message.txt&lt;/strong&gt; dosyasının içine mesaj olarak yazmasını istediğiniz metni yazınız.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Merhaba İsim Soyisim,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;#34;EXAMPLE EVENT&amp;#34; etkinliğimize katılımınız için teşekkür ederiz! Aşağıda, bu etkinliğe gösterdiğiniz ilgi ve katkı için size özel olarak hazırlanmış katılım sertifikanızı bulabilirsiniz.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Gelecek etkinliklerimizde de sizi aramızda görmekten mutluluk duyarız!
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;lt;hr&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Başarılarınızın devamını dileriz.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Saygılarımızla,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;EXAMPLE COMMUNITY
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="4"&gt;
+&lt;li&gt;&lt;strong&gt;message.txt&lt;/strong&gt; dosyasında 2 farklı değişken ekleyebilirsiniz:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mesaj Sabitleri&lt;/strong&gt;: her etkinlikte değişen bilgiler için kullanabilirsiniz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Merhaba İsim Soyisim,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;#34;{{#EVENT_NAME#}}&amp;#34; etkinliğimize katılımınız için teşekkür ederiz! Aşağıda, bu etkinliğe gösterdiğiniz ilgi ve katkı için size özel olarak hazırlanmış katılım sertifikanızı bulabilirsiniz.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Gelecek etkinliklerimizde de sizi aramızda görmekten mutluluk duyarız!
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;lt;hr&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Başarılarınızın devamını dileriz.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Saygılarımızla,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{#EVENT_ORGANIZER#}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kişi Değişkenleri&lt;/strong&gt;: kişiye göre değişen veriler için kullanabilirsiniz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Merhaba {{$NAME$}},
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;#34;{{#EVENT_NAME#}}&amp;#34; etkinliğimize katılımınız için teşekkür ederiz! Aşağıda, bu etkinliğe gösterdiğiniz ilgi ve katkı için size özel olarak hazırlanmış katılım sertifikanızı bulabilirsiniz.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Gelecek etkinliklerimizde de sizi aramızda görmekten mutluluk duyarız!
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;lt;hr&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Başarılarınızın devamını dileriz.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Saygılarımızla,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{#EVENT_ORGANIZER#}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;Mesaj sabitlerini, mail türünü ve mail konusunu &lt;strong&gt;message.conf&lt;/strong&gt; dosyasına tanımlayınız.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[General]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;type=html
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;subject=Certificate
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[Constant]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;EVENT_ORGANIZER=Example Community
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;EVENT_NAME=Example Event
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="6"&gt;
+&lt;li&gt;Kişi değişkenlerini &lt;strong&gt;settings/mailsend.tsv&lt;/strong&gt; dosyasına tanımlayınız.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;EMAIL NAME ATTACHMENTS
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;example example example
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="7"&gt;
+&lt;li&gt;&lt;code&gt;ATTACHMENTS&lt;/code&gt; boş bırakılırsa ek yoktur, bir dosya ise ek o dosyadır, bir dizin ise ek o dizinin içindeki tüm dosyalardır.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;settings/settings.conf&lt;/code&gt; dosyasına kullanacağınız hesap bilgilerini, mesaj şablonunu, gönderilen mesajların hangi klasörde görüntüleyebileceğiniz ve herkese ortak olarak gönderilecek ekleri tanımlayınız.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[General]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;account_settings=account.conf
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;template_message=example1
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;save_to_folder=true
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;folder_name=Example
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;shared_attachments=shared
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="9"&gt;
+&lt;li&gt;&lt;code&gt;settings/account.conf&lt;/code&gt; dosyasına mail&amp;rsquo;i gönderecek hesabın bilgilerini giriniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[General]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;email=example@recepseymenkonuk.com
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;password=Example Password
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;display_name=Example Name
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;smtp_host=smtp.recepseymenkonuk.com
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;smtp_port=587
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;imap_host=imap.recepseymenkonuk.com
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;imap_port=993
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="10"&gt;
+&lt;li&gt;Mailde gönderilecek bütün ekleri &lt;code&gt;attachments/&lt;/code&gt; dizinine yerleştiriniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="çalıştırma"&gt;Çalıştırma
+&lt;/h3&gt;&lt;p&gt;Uygulama &lt;strong&gt;Docker&lt;/strong&gt; üzerinden kolayca çalıştırılabilir.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Docker image almak için&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make build
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Projeyi çalıştırmak için&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make run
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mailleri göndermeden test etmek için&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make &lt;span class="nb"&gt;test&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Sertifika Otomasyonu</title><link>https://seymenkonuk.github.io/post/certificate-automation/</link><pubDate>Sat, 08 Mar 2025 12:00:00 +0300</pubDate><guid>https://seymenkonuk.github.io/post/certificate-automation/</guid><description>&lt;img src="https://seymenkonuk.github.io/post/certificate-automation/cover.png" alt="Featured image of post Sertifika Otomasyonu" /&gt;&lt;p&gt;Proje kaynak kodlarına &lt;a class="link" href="https://github.com/seymenkonuk/generate_certificate" target="_blank" rel="noopener"
+&gt;GitHub üzerindeki bu repo&lt;/a&gt; aracılığıyla ulaşabilirsiniz.&lt;/p&gt;
+&lt;h2 id="açıklama"&gt;Açıklama
+&lt;/h2&gt;&lt;p&gt;Sunduğu özellikler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Özelleştirilebilir sertifika tasarımı&lt;/li&gt;
+&lt;li&gt;Özelleştirilebilir sertifika metni&lt;/li&gt;
+&lt;li&gt;QR kod ile sertifika doğrulama&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://seymenkonuk.github.io/post/email-automation" target="_blank" rel="noopener"
+&gt;E-Posta Otomasyonu&lt;/a&gt; ile entegre olarak, sertifikaları ilgili kişilere hızlı bir şekilde mail olarak gönderebilme&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="tanıtım"&gt;Tanıtım
+&lt;/h3&gt;&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/3DVBDHmFSM0"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id="başlangıç"&gt;Başlangıç
+&lt;/h2&gt;&lt;h3 id="bağımlılıklar"&gt;Bağımlılıklar
+&lt;/h3&gt;&lt;p&gt;Proje aşağıdaki işletim sistemlerinde test edilmiştir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Debian&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Projenin düzgün çalışabilmesi için aşağıdaki yazılımların sisteminizde kurulu olması gerekir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python Yorumlayıcısı 3.9&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pip&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;inkscape&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker&lt;/strong&gt; (docker ortamında çalıştıracaksanız)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kurulum"&gt;Kurulum
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Bu repository&amp;rsquo;yi kendi bilgisayarınıza klonlayın:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/seymenkonuk/generate_certificate.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Projeye gidin:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; generate_certificate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="yapılandırma"&gt;Yapılandırma
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Sertifika tasarımınızı yapınız ve .SVG uzantılı olarak dışa aktarınız.&lt;/li&gt;
+&lt;li&gt;Şablonunuzu &lt;code&gt;assets/templates/certificate&lt;/code&gt; dizinine taşıyınız.&lt;/li&gt;
+&lt;li&gt;Sertifikanızda yazacak yazı için bir şablon oluşturmak için &lt;code&gt;assets/templates/message/&lt;/code&gt; dizini altına &lt;strong&gt;&amp;quot;&amp;lt;şablon_ismi&amp;gt;&amp;quot;&lt;/strong&gt; adında bir dizin oluşturun.&lt;/li&gt;
+&lt;li&gt;Bu dizinin altına &lt;strong&gt;message.conf&lt;/strong&gt; ve &lt;strong&gt;message.txt&lt;/strong&gt; adında iki dosya oluşturun.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;message.txt&lt;/strong&gt; dosyasının içine mesaj olarak yazmasını istediğiniz metni yazınız.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Example Organizer tarafından
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;01.01.2025 tarihinde gerçekleştirilen
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Example Event etkinliğine katılımınızdan dolayı
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;bu belgeyi almaya hak kazandınız.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="6"&gt;
+&lt;li&gt;&lt;strong&gt;message.txt&lt;/strong&gt; dosyasında 3 farklı değişken ekleyebilirsiniz:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mesaj Sabitleri&lt;/strong&gt;: her etkinlikte değişen bilgiler için kullanabilirsiniz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{#EVENT_ORGANIZER#}} tarafından
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{#EVENT_DATE#}} tarihinde gerçekleştirilen
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{#EVENT_NAME#}} etkinliğine katılımınızdan dolayı
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;bu belgeyi almaya hak kazandınız.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kişi Değişkenleri&lt;/strong&gt;: kişiye göre değişen veriler için kullanabilirsiniz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{#EVENT_ORGANIZER#}} tarafından
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{#EVENT_DATE#}} tarihinde gerçekleştirilen
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{#EVENT_NAME#}} etkinliğine katılımınızdan dolayı
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;bu belgeyi almaya hak kazandınız.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Başarı Yüzdesi: {{$BASARI$}}/100
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Özel Değişkenler&lt;/strong&gt;: hazır olarak 3 değişken sunulmaktadır.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;{{CERTIFICATE_ID}}&lt;/code&gt;: rastgele üretilen benzersiz sertifika ID&amp;rsquo;si&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{{QR_CODE}}&lt;/code&gt;: üretilen QR kodun path bilgisi&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{{MESSAGE}}&lt;/code&gt;: &lt;strong&gt;message.txt dosyasında bu değişken kullanılmamalıdır!&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mesaj sabitlerini &lt;strong&gt;message.conf&lt;/strong&gt; dosyasına tanımlayınız.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[Constant]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;EVENT_ORGANIZER=Example Community
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;EVENT_NAME=Example Event
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;EVENT_DATE=01.01.2025
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="8"&gt;
+&lt;li&gt;Kişi değişkenlerini &lt;strong&gt;inputs/new_participants.tsv&lt;/strong&gt; dosyasına tanımlayınız.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;NAME EMAIL BASARI
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Deneme1 Deneme1 90
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Deneme2 Deneme2 70
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="9"&gt;
+&lt;li&gt;Sertifikada da değişkenleri kullanabilirsiniz.&lt;/li&gt;
+&lt;li&gt;Sertifikada mesajın yazmasını istediğiniz yer için &lt;code&gt;{{MESSAGE}}&lt;/code&gt; değişkenini kullanınız.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;settings/settings.conf&lt;/code&gt; dosyasına kullanacağınız sertifika ve mesaj şablonunu tanımlayınız.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[General]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;certificate_template_svg=basic.svg
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[Message]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;certificate_message_template=example1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="12"&gt;
+&lt;li&gt;&lt;code&gt;settings/settings.conf&lt;/code&gt; dosyasına &lt;code&gt;{{MESSAGE}}&lt;/code&gt; ile ilgili ayarları ve doğrulama ile ilgili ayarları ekleyiniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[General]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;certificate_template_svg=basic.svg
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;certificate_verification_base_url=https://recepseymenkonuk.com/sertifikalar
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;certificate_verification_include_file_extension=true
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;certificate_id_length=10
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;text_to_path=true
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[Message]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;certificate_message_template=example1
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;certificate_message_x_coordinate=144.28885
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;certificate_message_y_coordinate=121.16418
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;certificate_message_row_height=10
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;certificate_message_row_max_length=70
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/QzKjlhnpFTg"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h3 id="çalıştırma"&gt;Çalıştırma
+&lt;/h3&gt;&lt;p&gt;Uygulama &lt;strong&gt;Docker&lt;/strong&gt; üzerinden kolayca çalıştırılabilir.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Docker image almak için&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make build
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Projeyi çalıştırmak için&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make run
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Arg Parser</title><link>https://seymenkonuk.github.io/post/arg-parser/</link><pubDate>Sat, 08 Mar 2025 00:00:00 +0300</pubDate><guid>https://seymenkonuk.github.io/post/arg-parser/</guid><description>&lt;p&gt;Proje kaynak kodlarına &lt;a class="link" href="https://github.com/seymenkonuk/arg_parser" target="_blank" rel="noopener"
+&gt;GitHub üzerindeki bu repo&lt;/a&gt; aracılığıyla ulaşabilirsiniz.&lt;/p&gt;
+&lt;h2 id="açıklama"&gt;Açıklama
+&lt;/h2&gt;&lt;p&gt;Sunduğu özellikler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Flag Yönetimi&lt;/strong&gt;: Bayrak (flag) parametrelerini işleme ve yönetme.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Opsiyonel ve Zorunlu Seçenekler&lt;/strong&gt;: Hem opsiyonel hem de zorunlu seçenekleri destekler.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Varsayılan Değerler&lt;/strong&gt;: Seçenekler için varsayılan değer atama imkanı sağlar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Değer Validasyonu&lt;/strong&gt;: Seçeneklere girilen değerlerin doğruluğunu kontrol eder.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Yardım Menüsü&lt;/strong&gt;: Kullanıcıya komut satırı argümanları hakkında bilgi sunar ve nasıl kullanılacağını gösterir.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Örnek program çıktısı 1:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;gt; ./test
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;option --zorluk: is require.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Örnek program çıktısı 2:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;gt; ./test --genislik metin -h deneme --zorluk IMKANSIZ
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Type Error: option --genislik expects an integer. You provided &lt;span class="s1"&gt;&amp;#39;metin&amp;#39;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Type Error: option --hiz expects an double. You provided &lt;span class="s1"&gt;&amp;#39;deneme&amp;#39;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Type Error: option --zorluk expects an &lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;KOLAY&amp;#39;&lt;/span&gt;, &lt;span class="s1"&gt;&amp;#39;ORTA&amp;#39;&lt;/span&gt;, &lt;span class="s1"&gt;&amp;#39;ZOR&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;. You provided &lt;span class="s1"&gt;&amp;#39;IMKANSIZ&amp;#39;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Örnek program çıktısı 3:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;gt; ./test --help
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-?, --help yardim ekrani
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-m, --mod modu degistirir
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-g, --genislik &amp;lt;value&amp;gt; oyun alaninin genisligini belirler
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-y, --yukseklik &amp;lt;value&amp;gt; oyun alaninin yuksekligini belirler
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-h, --hiz &amp;lt;value&amp;gt; oyunun hizini belirler
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-t, --test &amp;lt;value&amp;gt; &lt;span class="nb"&gt;test&lt;/span&gt; amaclidir
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-z, --zorluk &amp;lt;value&amp;gt; *oyunun zorlugunu belirler &lt;span class="o"&gt;(&lt;/span&gt;KOLAY, ORTA, ZOR&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="başlangıç"&gt;Başlangıç
+&lt;/h2&gt;&lt;h3 id="bağımlılıklar"&gt;Bağımlılıklar
+&lt;/h3&gt;&lt;p&gt;Proje aşağıdaki işletim sistemlerinde test edilmiştir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Debian&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Projenin düzgün çalışabilmesi için aşağıdaki yazılımların sisteminizde kurulu olması gerekir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;C Derleyicisi&lt;/strong&gt; (GCC, Clang vb.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Make&lt;/strong&gt; (Makefile kullanarak derlemek için)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker&lt;/strong&gt; (Docker kullanarak çalıştırmak için)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kurulum"&gt;Kurulum
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Bu repository&amp;rsquo;yi kendi bilgisayarınıza klonlayın:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/seymenkonuk/arg_parser.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Projeye gidin:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; arg_parser
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="yapılandırma"&gt;Yapılandırma
+&lt;/h3&gt;&lt;p&gt;Yapılandırılacak bir şey yok!&lt;/p&gt;
+&lt;h3 id="derleme"&gt;Derleme
+&lt;/h3&gt;&lt;p&gt;Kütüphane, &lt;strong&gt;Makefile&lt;/strong&gt; üzerinden kolayca derlenebilir ve linklenebilir.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Projeyi derlemek için&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Projeyi temizlemek için&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make clean
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Makefile, kütüphanenizi derleyecek ve &lt;code&gt;bin/libarg_parser.a&lt;/code&gt; statik kütüphanesini oluşturacaktır.&lt;/p&gt;
+&lt;h3 id="çalıştırma"&gt;Çalıştırma
+&lt;/h3&gt;&lt;p&gt;Kütüphaneyi kullanan basit bir programı (&lt;code&gt;test/test.c&lt;/code&gt;) &lt;strong&gt;Docker&lt;/strong&gt; üzerinden çalıştırabilirsiniz:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make ve Docker&amp;rsquo;ı kurunuz.&lt;/li&gt;
+&lt;li&gt;Aşağıdaki komutu çalıştırınız:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make docker
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Kütüphaneyi kullanan basit bir programı (&lt;code&gt;test/test.c&lt;/code&gt;) &lt;strong&gt;Makefile&lt;/strong&gt; üzerinden çalıştırabilirsiniz:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make&amp;rsquo;i kurunuz.&lt;/li&gt;
+&lt;li&gt;Aşağıdaki komutu çalıştırınız:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make &lt;span class="nb"&gt;test&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="kullanım"&gt;Kullanım
+&lt;/h2&gt;&lt;p&gt;Kütüphaneyi kendi C projenizde kullanabilmek için aşağıdaki adımları izleyebilirsiniz:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Kütüphaneyi derleyerek &lt;code&gt;libarg_parser.a&lt;/code&gt; dosyasını elde edin.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;libarg_parser.a dosyasını &lt;code&gt;/path/to&lt;/code&gt; dizinine yerleştirin.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;src dizini içindeki bütün .h dosyalarını &lt;code&gt;/path/to/include/arg_parser&lt;/code&gt; dizinine yerleştirin.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Kütüphaneyi dahil edin&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;#include &amp;lt;arg_parser/arg_parser.h&amp;gt;&lt;/code&gt; satırını, kullanmak istediğiniz C dosyasının başına ekleyin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Derleme sırasında kütüphaneyi linkleyin&lt;/strong&gt;: (Burada &lt;code&gt;/path/to&lt;/code&gt; dizini herhangi bir dizin olabilir.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;gcc -o my_program my_program.c -L/path/to -larg_parser -I/path/to/include
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>
