@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CSS on Recep Seymen Konuk</title><link>https://seymenkonuk.github.io/tags/css/</link><description>Recent content in CSS on Recep Seymen Konuk</description><generator>Hugo -- gohugo.io</generator><language>tr-TR</language><lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://seymenkonuk.github.io/tags/css/index.xml" rel="self" type="application/rss+xml"/><item><title>SYPass: Parola Yöneticisi</title><link>https://seymenkonuk.github.io/post/sypass/</link><pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate><guid>https://seymenkonuk.github.io/post/sypass/</guid><description>&lt;p&gt;Proje kaynak kodlarına &lt;a class="link" href="https://github.com/seymenkonuk/SYPass" target="_blank" rel="noopener"
+&gt;GitHub üzerindeki bu repo&lt;/a&gt; aracılığıyla ulaşabilirsiniz.&lt;/p&gt;
+&lt;h2 id="açıklama"&gt;Açıklama
+&lt;/h2&gt;&lt;p&gt;Kullanıcılar, farklı hesaplar için güçlü ve benzersiz parolalar oluşturabilir, saklayabilir ve hızlıca erişebilir. Eklenti, parolaları şifreli bir şekilde saklar ve sadece doğru anahtar ile erişim sağlar. Kullanıcı dostu bir arayüz sunarak, parolalarınızı kolayca ekleyip düzenlemenize olanak tanır.&lt;/p&gt;
+&lt;p&gt;Sunduğu özellikler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Güçlü parola oluşturucu&lt;/li&gt;
+&lt;li&gt;Parolaların şifreli saklanması&lt;/li&gt;
+&lt;li&gt;Otomatik form doldurma&lt;/li&gt;
+&lt;li&gt;Parolalarınızı aktif sekmenin base-domain&amp;rsquo;ine göre gruplama&lt;/li&gt;
+&lt;li&gt;Parolalarınızı dosya olarak dışarı aktarma ve dosyayı içeri aktarma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="tanıtım"&gt;Tanıtım
+&lt;/h3&gt;&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/u3CtZp4M1lY"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id="başlangıç"&gt;Başlangıç
+&lt;/h2&gt;&lt;h3 id="bağımlılıklar"&gt;Bağımlılıklar
+&lt;/h3&gt;&lt;p&gt;Proje aşağıdaki tarayıcılarda test edilmiştir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Chrome&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft Edge&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Brave&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kurulum"&gt;Kurulum
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Bu repository&amp;rsquo;yi kendi bilgisayarınıza klonlayın:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/seymenkonuk/SYPass.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Projeye gidin:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; SYPass
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="3"&gt;
+&lt;li&gt;Gerekli yapılandırmaları yaptıktan sonra eklentiyi tarayıcınıza kurunuz.
+&lt;ul&gt;
+&lt;li&gt;Chrome için kurulum aşamaları:
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;chrome://extensions/&lt;/code&gt; adresine gidiniz.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Geliştirici Modu&lt;/strong&gt; aktif ediniz.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;build/&lt;/code&gt; klasörünü tarayıcıya sürükleyiniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="yapılandırma"&gt;Yapılandırma
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Ayarlarınız, tarayıcının depolamasında şifreli bir şekilde saklanır. Eklenti ayarlarından bu dosyayı dışarı aktarabilir veya içeri aktarabilirsiniz. Şifreleme anahtarı &lt;code&gt;build/src/config.min.js&lt;/code&gt; dosyasındaki key bilgisidir. Güvenliğiniz için bu değeri değiştirmelisiniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;export&lt;/span&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;key&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;yeni-key-bilgisi&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Eklentinin ismini değiştirmek isterseniz:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;build/manifest.json&lt;/code&gt; dosyasında &lt;strong&gt;name&lt;/strong&gt;&amp;lsquo;i değiştiriniz.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;build/src/config.min.js&lt;/code&gt; dosyasında app_name&amp;rsquo;i değiştiriniz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;export&lt;/span&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;app_name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;yeni-app-ismi&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>SYChat: WhatsApp için Ekstra Şifreleme</title><link>https://seymenkonuk.github.io/post/sychat/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0300</pubDate><guid>https://seymenkonuk.github.io/post/sychat/</guid><description>&lt;p&gt;Proje kaynak kodlarına &lt;a class="link" href="https://github.com/seymenkonuk/SYChat" target="_blank" rel="noopener"
+&gt;GitHub üzerindeki bu repo&lt;/a&gt; aracılığıyla ulaşabilirsiniz.&lt;/p&gt;
+&lt;h2 id="açıklama"&gt;Açıklama
+&lt;/h2&gt;&lt;p&gt;Bu Chrome eklentisi, WhatsApp Web&amp;rsquo;teki mesajlar için ek bir güvenlik katmanı sağlar. WhatsApp Web&amp;rsquo;in yerleşik şifreleme özelliklerine ek olarak, mesajlarınızı AES (Advanced Encryption Standard) algoritması ile ekstra bir şifrelemeye tabi tutarak gizliliğinizi daha da artırır.&lt;/p&gt;
+&lt;p&gt;Sunduğu özellikler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mesajları şifreleme / çözme&lt;/li&gt;
+&lt;li&gt;Dosyaları şifreleme / çözme&lt;/li&gt;
+&lt;li&gt;Sohbetin ortak anahtarını manuel belirleme&lt;/li&gt;
+&lt;li&gt;Ortak anahtar belirlemek için Diffie-Hellman kullanma&lt;/li&gt;
+&lt;li&gt;Anahtarları dosya olarak dışarı aktarma ve dosyayı içeri aktarma&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="tanıtım"&gt;Tanıtım
+&lt;/h3&gt;&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/M6rjjuHJ8M8"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id="başlangıç"&gt;Başlangıç
+&lt;/h2&gt;&lt;h3 id="bağımlılıklar"&gt;Bağımlılıklar
+&lt;/h3&gt;&lt;p&gt;Proje aşağıdaki tarayıcılarda test edilmiştir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Chrome&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft Edge&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Brave&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kurulum"&gt;Kurulum
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Bu repository&amp;rsquo;yi kendi bilgisayarınıza klonlayın:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/seymenkonuk/SYChat.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Projeye gidin:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; SYChat
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="3"&gt;
+&lt;li&gt;Gerekli yapılandırmaları yaptıktan sonra eklentiyi tarayıcınıza kurunuz.
+&lt;ul&gt;
+&lt;li&gt;Chrome için kurulum aşamaları:
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;chrome://extensions/&lt;/code&gt; adresine gidiniz.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Geliştirici Modu&lt;/strong&gt; aktif ediniz.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;build/&lt;/code&gt; klasörünü tarayıcıya sürükleyiniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="yapılandırma"&gt;Yapılandırma
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Sohbetlerinizde kullanılan anahtarlar, tarayıcının depolamasında şifreli bir şekilde saklanır. Eklenti ayarlarından bu dosyayı dışarı aktarabilir veya içeri aktarabilirsiniz. Şifreleme anahtarı &lt;code&gt;build/src/config.min.js&lt;/code&gt; dosyasındaki key bilgisidir. Güvenliğiniz için bu değeri değiştirmelisiniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;export&lt;/span&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;key&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;yeni-key-bilgisi&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Eklentinin ismini değiştirmek isterseniz:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;build/manifest.json&lt;/code&gt; dosyasında &lt;strong&gt;name&lt;/strong&gt;&amp;lsquo;i değiştiriniz.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;build/src/config.min.js&lt;/code&gt; dosyasında app_name&amp;rsquo;i değiştiriniz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;export&lt;/span&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;app_name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;yeni-app-ismi&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="kullanım"&gt;Kullanım
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Manuel Anahtar Belirleme
+&lt;ol&gt;
+&lt;li&gt;Bir anahtar belirleyin ya da rastgele oluşturun.&lt;/li&gt;
+&lt;li&gt;Eklentinin pop-up menüsünden anahtarı giriniz.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anahtarı karşı tarafa güvenli bir şekilde iletiniz.&lt;/strong&gt; (Ör: PGP ile)&lt;/li&gt;
+&lt;li&gt;Karşı taraf da eklentinin pop-up menüsünden anahtarı girmelidir.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/9I8T6yY_dyc"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Diffie-Hellman ile Ortak Anahtar Belirleme
+&lt;ol&gt;
+&lt;li&gt;Karşı tarafa public anahtarınızı gönderiniz.&lt;/li&gt;
+&lt;li&gt;Karşı tarafın kendi public anahtarını göndermesini bekleyiniz.&lt;/li&gt;
+&lt;li&gt;İki tarafta kendi public anahtarını gönderdiğinde; &lt;strong&gt;Diffie-Hellman&lt;/strong&gt; algoritması ile &lt;strong&gt;güvenli&lt;/strong&gt; bir şekilde otomatik olarak ortak anahtar oluşturulur.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/QXbTGolbAIA"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Şifreli Mesaj Gönderme
+&lt;ol&gt;
+&lt;li&gt;Anahtarı belirleyiniz.&lt;/li&gt;
+&lt;li&gt;Mesajı yazınız ve &lt;strong&gt;CTRL+ENTER&lt;/strong&gt; ile gönderiniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/FoVyzF53sBg"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Şifreli Dosya Gönderme
+&lt;ol&gt;
+&lt;li&gt;Anahtarı belirleyiniz.&lt;/li&gt;
+&lt;li&gt;Dosyayı sol taraftaki &lt;strong&gt;mavi&lt;/strong&gt; dosya yükleme alanına sürükleyiniz.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/JZq3YjE6Apo"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Şifreli Dosyayı Çözme
+&lt;ol&gt;
+&lt;li&gt;Anahtarı belirleyiniz.&lt;/li&gt;
+&lt;li&gt;Şifreli dosyayı indiriniz.&lt;/li&gt;
+&lt;li&gt;Şifreli dosyayı sol taraftaki &lt;strong&gt;mavi&lt;/strong&gt; dosya yükleme alanına sürükleyiniz.&lt;/li&gt;
+&lt;li&gt;Çözülmüş dosya bilgisayarınıza indirilecektir.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/gb_IqCu1K_c"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;</description></item></channel></rss>

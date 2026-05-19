@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Uygulamaları on Recep Seymen Konuk</title><link>https://seymenkonuk.github.io/categories/web-applications/</link><description>Recent content in Web Uygulamaları on Recep Seymen Konuk</description><generator>Hugo -- gohugo.io</generator><language>tr-TR</language><lastBuildDate>Tue, 19 May 2026 00:00:00 +0300</lastBuildDate><atom:link href="https://seymenkonuk.github.io/categories/web-applications/index.xml" rel="self" type="application/rss+xml"/><item><title>EmroTube</title><link>https://seymenkonuk.github.io/post/emrotube/</link><pubDate>Tue, 19 May 2026 00:00:00 +0300</pubDate><guid>https://seymenkonuk.github.io/post/emrotube/</guid><description>&lt;img src="https://seymenkonuk.github.io/post/emrotube/cover.png" alt="Featured image of post EmroTube" /&gt;&lt;p&gt;Proje kaynak kodlarına &lt;a class="link" href="https://github.com/seymenkonuk/emrotube" target="_blank" rel="noopener"
+&gt;GitHub üzerindeki bu repo&lt;/a&gt; aracılığıyla ulaşabilirsiniz.&lt;/p&gt;
+&lt;h1 id="emrotube"&gt;EmroTube
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;YouTube benzeri video paylaşım platformu.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dokümantasyon proje tamamlandıktan sonra eklenecektir.&lt;/p&gt;
+&lt;h2 id="proje-videosu"&gt;Proje Videosu
+&lt;/h2&gt;&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/9f8p8N2fq80"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;</description></item></channel></rss>

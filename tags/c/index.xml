@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C on Recep Seymen Konuk</title><link>https://seymenkonuk.github.io/tags/c/</link><description>Recent content in C on Recep Seymen Konuk</description><generator>Hugo -- gohugo.io</generator><language>tr-TR</language><lastBuildDate>Sat, 08 Mar 2025 00:00:00 +0300</lastBuildDate><atom:link href="https://seymenkonuk.github.io/tags/c/index.xml" rel="self" type="application/rss+xml"/><item><title>Arg Parser</title><link>https://seymenkonuk.github.io/post/arg-parser/</link><pubDate>Sat, 08 Mar 2025 00:00:00 +0300</pubDate><guid>https://seymenkonuk.github.io/post/arg-parser/</guid><description>&lt;p&gt;Proje kaynak kodlarına &lt;a class="link" href="https://github.com/seymenkonuk/arg_parser" target="_blank" rel="noopener"
+&gt;GitHub üzerindeki bu repo&lt;/a&gt; aracılığıyla ulaşabilirsiniz.&lt;/p&gt;
+&lt;h2 id="açıklama"&gt;Açıklama
+&lt;/h2&gt;&lt;p&gt;Sunduğu özellikler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Flag Yönetimi&lt;/strong&gt;: Bayrak (flag) parametrelerini işleme ve yönetme.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Opsiyonel ve Zorunlu Seçenekler&lt;/strong&gt;: Hem opsiyonel hem de zorunlu seçenekleri destekler.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Varsayılan Değerler&lt;/strong&gt;: Seçenekler için varsayılan değer atama imkanı sağlar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Değer Validasyonu&lt;/strong&gt;: Seçeneklere girilen değerlerin doğruluğunu kontrol eder.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Yardım Menüsü&lt;/strong&gt;: Kullanıcıya komut satırı argümanları hakkında bilgi sunar ve nasıl kullanılacağını gösterir.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Örnek program çıktısı 1:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;gt; ./test
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;option --zorluk: is require.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Örnek program çıktısı 2:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;gt; ./test --genislik metin -h deneme --zorluk IMKANSIZ
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Type Error: option --genislik expects an integer. You provided &lt;span class="s1"&gt;&amp;#39;metin&amp;#39;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Type Error: option --hiz expects an double. You provided &lt;span class="s1"&gt;&amp;#39;deneme&amp;#39;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Type Error: option --zorluk expects an &lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;KOLAY&amp;#39;&lt;/span&gt;, &lt;span class="s1"&gt;&amp;#39;ORTA&amp;#39;&lt;/span&gt;, &lt;span class="s1"&gt;&amp;#39;ZOR&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;. You provided &lt;span class="s1"&gt;&amp;#39;IMKANSIZ&amp;#39;&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Örnek program çıktısı 3:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;gt; ./test --help
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-?, --help yardim ekrani
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-m, --mod modu degistirir
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-g, --genislik &amp;lt;value&amp;gt; oyun alaninin genisligini belirler
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-y, --yukseklik &amp;lt;value&amp;gt; oyun alaninin yuksekligini belirler
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-h, --hiz &amp;lt;value&amp;gt; oyunun hizini belirler
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-t, --test &amp;lt;value&amp;gt; &lt;span class="nb"&gt;test&lt;/span&gt; amaclidir
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-z, --zorluk &amp;lt;value&amp;gt; *oyunun zorlugunu belirler &lt;span class="o"&gt;(&lt;/span&gt;KOLAY, ORTA, ZOR&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="başlangıç"&gt;Başlangıç
+&lt;/h2&gt;&lt;h3 id="bağımlılıklar"&gt;Bağımlılıklar
+&lt;/h3&gt;&lt;p&gt;Proje aşağıdaki işletim sistemlerinde test edilmiştir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Debian&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Projenin düzgün çalışabilmesi için aşağıdaki yazılımların sisteminizde kurulu olması gerekir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;C Derleyicisi&lt;/strong&gt; (GCC, Clang vb.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Make&lt;/strong&gt; (Makefile kullanarak derlemek için)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker&lt;/strong&gt; (Docker kullanarak çalıştırmak için)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kurulum"&gt;Kurulum
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Bu repository&amp;rsquo;yi kendi bilgisayarınıza klonlayın:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/seymenkonuk/arg_parser.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;Projeye gidin:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; arg_parser
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="yapılandırma"&gt;Yapılandırma
+&lt;/h3&gt;&lt;p&gt;Yapılandırılacak bir şey yok!&lt;/p&gt;
+&lt;h3 id="derleme"&gt;Derleme
+&lt;/h3&gt;&lt;p&gt;Kütüphane, &lt;strong&gt;Makefile&lt;/strong&gt; üzerinden kolayca derlenebilir ve linklenebilir.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Projeyi derlemek için&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Projeyi temizlemek için&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make clean
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Makefile, kütüphanenizi derleyecek ve &lt;code&gt;bin/libarg_parser.a&lt;/code&gt; statik kütüphanesini oluşturacaktır.&lt;/p&gt;
+&lt;h3 id="çalıştırma"&gt;Çalıştırma
+&lt;/h3&gt;&lt;p&gt;Kütüphaneyi kullanan basit bir programı (&lt;code&gt;test/test.c&lt;/code&gt;) &lt;strong&gt;Docker&lt;/strong&gt; üzerinden çalıştırabilirsiniz:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make ve Docker&amp;rsquo;ı kurunuz.&lt;/li&gt;
+&lt;li&gt;Aşağıdaki komutu çalıştırınız:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make docker
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Kütüphaneyi kullanan basit bir programı (&lt;code&gt;test/test.c&lt;/code&gt;) &lt;strong&gt;Makefile&lt;/strong&gt; üzerinden çalıştırabilirsiniz:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Make&amp;rsquo;i kurunuz.&lt;/li&gt;
+&lt;li&gt;Aşağıdaki komutu çalıştırınız:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make &lt;span class="nb"&gt;test&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="kullanım"&gt;Kullanım
+&lt;/h2&gt;&lt;p&gt;Kütüphaneyi kendi C projenizde kullanabilmek için aşağıdaki adımları izleyebilirsiniz:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Kütüphaneyi derleyerek &lt;code&gt;libarg_parser.a&lt;/code&gt; dosyasını elde edin.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;libarg_parser.a dosyasını &lt;code&gt;/path/to&lt;/code&gt; dizinine yerleştirin.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;src dizini içindeki bütün .h dosyalarını &lt;code&gt;/path/to/include/arg_parser&lt;/code&gt; dizinine yerleştirin.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Kütüphaneyi dahil edin&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;#include &amp;lt;arg_parser/arg_parser.h&amp;gt;&lt;/code&gt; satırını, kullanmak istediğiniz C dosyasının başına ekleyin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Derleme sırasında kütüphaneyi linkleyin&lt;/strong&gt;: (Burada &lt;code&gt;/path/to&lt;/code&gt; dizini herhangi bir dizin olabilir.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;gcc -o my_program my_program.c -L/path/to -larg_parser -I/path/to/include
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>
